@@ -44,11 +44,10 @@ I've gone back and forth over which tech to use in the BMS. I think I've settled
 Autonomous Cell Balancing and HIBERNATE Mode</li>
   <ul>  
     <li>This single IC provides standalone Voltage, Current, and Temperature protections. It also provides 50mA of internal cell balancing current and also supports external FETs for higher balancing current</li>
+    <li>Given that this single IC handles essentially all major functions, I don't think I'll do anything additional on this build. The goal is just simple pack protections and balancing. </li>
+    <li>I will likely develop the PCB with two of the BQ77915s to support my 10S configuration, and will also incorporate external FETs to support greater than 50mv balancing current.</li>
   </ul>
-  <li><b>Fuel Gauging:</b> Undecided</li>
-  <ul>
-    <li>I would like to incorporate a simple fuel gauging IC with external LED support for a simple SOC indicator (ex. 4 LEDS = 100%, 3 LEDS = 75%, etc.)</li>
-  </ul>
+  
 </ul>
 
 
