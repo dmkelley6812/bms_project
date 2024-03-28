@@ -51,6 +51,9 @@ Autonomous Cell Balancing and HIBERNATE Mode</li>
 </ul>
 
 
+<h1>BQ7791502 Design Considerations</h1>
+
+
 
 
 
